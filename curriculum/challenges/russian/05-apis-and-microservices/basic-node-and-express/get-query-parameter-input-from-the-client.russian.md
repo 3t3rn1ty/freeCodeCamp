@@ -14,10 +14,10 @@ localeTitle: Получить ввод параметров запроса от 
 СОВЕТ: В следующем упражнении мы собираемся получить данные из запроса POST по тому же пути <code>/name</code> маршрута. Если вы хотите, вы можете использовать метод <code>app.route(path).get(handler).post(handler)</code> . Этот синтаксис позволяет связывать разные обработчики глаголов на одном и том же пути маршрута. Вы можете сэкономить немного времени на ввод текста и получить более чистый код.
 </section>
 
-## Instructions
+## Инструкции
 <section id='instructions'>
-Build an API endpoint, mounted at <code>GET /name</code>. Respond with a JSON document, taking the structure <code>{ name: 'firstname lastname'}</code>. The first and last name parameters should be encoded in a query string e.g. <code>?first=firstname&last=lastname</code>.
-<strong>Note:</strong> In the following exercise you are going to receive data from a POST request, at the same <code>/name</code> route path. If you want, you can use the method <code>app.route(path).get(handler).post(handler)</code>. This syntax allows you to chain different verb handlers on the same path route. You can save a bit of typing, and have cleaner code.
+Создайте конечную точку API, смонтированную в <code>GET /name</code>. Ответьте документом JSON, взяв структуру <code>{ name: 'firstname lastname'}</code>. Имя и фамилия параметры должны быть закодированы в строке запроса, например <code>?first=firstname&last=lastname</code>.
+<strong>Примечание:</strong> Примечание: в следующем упражнении вы будете получать данные из запроса POST, по тому же пути маршрута <code>/name</code>. Если вы хотите, вы можете использовать метод <code>app.route(path).get(handler).post(handler)</code>. Этот синтаксис позволяет связывать разные обработчики глаголов на одном и том же пути. Вы можете сэкономить немного времени на ввод текста и получить более чистый код.
 </section>
 
 ## Tests
